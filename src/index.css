@@ -410,6 +410,7 @@ Sidebar
 .sidebar-sublinks a:hover {
   transform: scale(1.01);
   color: var(--grey-600);
+  transition: var(--transition);
 }
 .sidebar-sublinks svg {
   color: var(--grey-500);
@@ -509,6 +510,7 @@ SUBMENU
     display: flex;
     align-items: center;
     gap: 1rem;
+    transition: var(--transition);
   }
   .submenu-links a:hover {
     transform: scale(1.01);
