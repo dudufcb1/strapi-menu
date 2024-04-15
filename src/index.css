@@ -407,7 +407,10 @@ Sidebar
   align-items: center;
   gap: 1rem;
 }
-
+.sidebar-sublinks a:hover {
+  transform: scale(1.01);
+  color: var(--grey-600);
+}
 .sidebar-sublinks svg {
   color: var(--grey-500);
 }
@@ -506,6 +509,10 @@ SUBMENU
     display: flex;
     align-items: center;
     gap: 1rem;
+  }
+  .submenu-links a:hover {
+    transform: scale(1.01);
+    color: var(--grey-600);
   }
   .submenu-links svg {
     color: var(--grey-500);
